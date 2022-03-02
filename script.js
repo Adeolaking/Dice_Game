@@ -67,16 +67,16 @@ holdEl.addEventListener('click', ()=>{
     }
 })
 
-refresh.addEventListener('click', ()=>{
-    document.querySelector(`.player--${activePlayer}`).classList.remove('player--winner')
-    currentScore = 0;
-    document.querySelector(`#current--${activePlayer}`).textContent = currentScore;
-    activePlayer= 0;
-    document.querySelector(`.player--${activePlayer}`).classList.add('player--active')
-    score0.textContent = 0;
-    score1.textContent = 0;
-    diceEl.classList.add('hidden')
-    scores[0] = 0
-    scores[1] = 0
-    isPlaying = true;
-})
+// refresh.addEventListener('click', ()=>{
+//     document.querySelector(`.player--${activePlayer}`).classList.remove('player--winner')
+//     currentScore = 0;
+//     document.querySelector(`#current--${activePlayer}`).textContent = currentScore;
+//     activePlayer= 0;
+//     document.querySelector(`.player--${activePlayer}`).classList.add('player--active')
+//     score0.textContent = 0;
+//     score1.textContent = 0;
+//     diceEl.classList.add('hidden')
+//     scores[0] = 0
+//     scores[1] = 0
+//     isPlaying = true;
+// })
